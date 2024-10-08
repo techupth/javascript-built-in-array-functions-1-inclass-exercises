@@ -9,6 +9,10 @@
 
 // Start coding here
 
+function discountItem(products, discount) {
+  return products.map((product) => product.price - discount);
+}
+
 const products = [
   { id: 1, name: "labtop", price: 30000, quantity: 20 },
   { id: 2, name: "keyboard", price: 2000, quantity: 45 },
